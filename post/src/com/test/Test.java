@@ -13,6 +13,7 @@ public class Test {
 		params.put("param1", "test1");
 		params.put("param2", "200");
 		
+		// this is a test
 		String result = HttpUtil.http(url, params);
 		
 		System.out.println(result);
